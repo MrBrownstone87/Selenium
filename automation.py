@@ -1,10 +1,7 @@
 from selenium import webdriver #подключаем драйвер и несколько модулей
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 import time
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.action_chains import ActionChains
+
 
 
 driver = webdriver.Chrome('/Users/mrbrownstone87/Downloads/chromedriver') #подключаем драйвера для Хрома, указав директорию файла с драйвером
